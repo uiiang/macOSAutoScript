@@ -85,43 +85,27 @@ fi
 
 brew analytics off
 printf "start install iina\n"
-brew install iina
-printf "start install itsycal\n"
-brew install itsycal
-printf "start install python\n"
-brew install python 
-printf "start install iterm2\n"
-brew install iterm2 
-printf "start install node\n"
-brew install node 
-printf "start install appium\n"
-brew install appium 
-printf "start install gradle\n"
-brew install gradle 
-printf "start install openjdk\n"
-brew install openjdk 
-printf "start install google-chrome \n"
-brew install google-chrome 
-printf "start install visual-studio-code \n"
-brew install visual-studio-code 
-printf "start install tencent-lemon \n"
-brew install tencent-lemon 
-printf "start install free-download-manager\n"
-brew install free-download-manager 
-printf "start install android-studio \n"
-brew install android-studio 
-printf "start install handshaker\n"
-brew install handshaker 
-printf "start install switchhosts\n"
-brew install switchhosts 
-printf "start install Anaconda\n"
-brew install Anaconda 
-printf "start install mas\n"
-brew install mas
-printf "start install shadowsocksx-ng-r"
-brew install shadowsocksx-ng-r
-printf "start install wechatwebdevtools"
-brew install wechatwebdevtools
+brew install \
+iina \
+itsycal \
+python \
+iterm2 \
+node \
+appium \
+gradle \
+openjdk \
+google-chrome \
+visual-studio-code \
+tencent-lemon \
+free-download-manager \
+android-studio \
+handshaker \
+switchhosts \
+Anaconda \
+mas \
+shadowsocksx-ng-r \
+wechatwebdevtools \
+flutter
 
 brew cleanup
 
@@ -139,29 +123,18 @@ fi
 
 pip3 install pip -U
 # # 安装pip包
-printf "start pip install bs4\n"
-pip3 install bs4
-printf "start pip install beautifulsoup4\n"
-pip3 install beautifulsoup4
-printf "start pip install peewee\n"
-pip3 install peewee
-printf "start pip install schedule\n"
-pip3 install schedule
+pip3 install \
+bs4 \
+beautifulsoup4 \
+peewee \
+schedule
 
 # # Install MAS Applications
-printf "start mas install 微信\n"
-mas install 836500024
-printf "start mas install XCode\n"
-mas install 497799835 
-printf "start mas install Microsoft To Do\n"
-mas install 1274495053
-printf "start mas install QQ"
-mas install 451108668
-printf "start mas install Paste - Clipboard Tool"
-mas install 1554034946
-printf "start mas install maipoweb"
-mas install 789066512
-printf "start mas install The Unarchiver"
-mas install 425424353
-printf "start mas install 截图"
-mas install 1059334054
+mas install \
+836500024 \ # 微信
+497799835 \ # Xcode
+1274495053 \ # Microsoft To Do
+451108668 \ # QQ
+1554034946 \ # Paste
+789066512 \ # Maipo
+425424353 # The Unarchiver
