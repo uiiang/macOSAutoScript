@@ -1,5 +1,7 @@
 # macOSAutoScript
 
+## macOS自动装机脚本, 一键安装常用软件和开发工具
+
 ## 1. 使用前提:
 - 登录app store帐号
 - 如不是最新版本的mac OS, 可能会出现无法安装mas, Xcode Command Line Tools, 和Xcode的情况
