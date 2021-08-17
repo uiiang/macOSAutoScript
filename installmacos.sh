@@ -29,15 +29,15 @@ if [[ $sys_config == "y" ]]; then
     defaults write com.apple.finder _FXShowPosixPathInTitle -bool YES
     # 显示xcode编译时间
     defaults write com.apple.dt.Xcode ShowBuildOperationDuration YES
-    #将程序坞位置移到屏幕左侧
+    # 将程序坞位置移到屏幕左侧
     defaults write com.apple.dock "orientation" -string "right"
-    #将程序坞的图标大小设置为33，默认大小为48
+    # 将程序坞的图标大小设置为33，默认大小为48
     defaults write com.apple.dock "tilesize" -int "33"
-    #在程序坞中不显示最近使用的程序
+    # 在程序坞中不显示最近使用的程序
     defaults write com.apple.dock "show-recents" -bool "false"
-    #在最小化时使用缩放效果
+    # 在最小化时使用缩放效果
     defaults write com.apple.dock "mineffect" -string "scale"
-    #截图后创建的文件名称上加上时间
+    # 截图后创建的文件名称上加上时间
     defaults write com.apple.screencapture "include-date" -bool "true"
     killall Dock
     killall Finder
