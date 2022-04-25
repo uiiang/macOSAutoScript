@@ -116,49 +116,27 @@ fi
 brew analytics off
 printf "start install iina\n"
 brew install \
-
-
-aldente \
-android-studio \
-calibre \
-charles \
-chromedriver \
-firefox \
-flutter \
-free-download-manager \
-google-chrome \
-handshaker \
 iina \
-intellij-idea-ce \
-iterm2 \
 itsycal \
-jd-gui \
-microsoft-office \
-motrix \
-mysqlworkbench \
-omnidisksweeper \
-postman \
-qq \
-shadowsocksx-ng-r \
-sqlitestudio \
-switchhosts \
-tencent-lemon \
-the-unarchiver \
-videofusion \
-virtualbox \
-visual-studio-code \
-wechat \
-wechatwebdevtools \
-
-apktool \
-appium \
-dex2jar \
-ffmpeg \
-flutter \
-gradle \
-mysql \
+python \
+iterm2 \
 node \
-you-get \
+appium \
+gradle \
+openjdk \
+google-chrome \
+visual-studio-code \
+tencent-lemon \
+free-download-manager \
+android-studio \
+handshaker \
+switchhosts \
+Anaconda \
+shadowsocksx-ng-r \
+wechatwebdevtools \
+flutter \
+sqlitestudio \
+python-tk@3.9
 
 brew cleanup
 
@@ -179,14 +157,8 @@ pip3 install pip -U
 pip3 install \
 bs4 \
 beautifulsoup4 \
-Flask \
-lxml \
-moviepy \
-numpy \
 peewee \
-Pillow \
-schedule \
-uncurl \
+schedule
 
 # 如果是macos系统, 安装mas和appstore常用软件
 if [[ "$OS_TYPE" == "Darwin" ]]; then 

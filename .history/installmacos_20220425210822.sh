@@ -116,8 +116,6 @@ fi
 brew analytics off
 printf "start install iina\n"
 brew install \
-
-
 aldente \
 android-studio \
 calibre \
@@ -138,18 +136,15 @@ motrix \
 mysqlworkbench \
 omnidisksweeper \
 postman \
-qq \
 shadowsocksx-ng-r \
 sqlitestudio \
 switchhosts \
 tencent-lemon \
-the-unarchiver \
 videofusion \
-virtualbox \
 visual-studio-code \
-wechat \
 wechatwebdevtools \
 
+Anaconda \
 apktool \
 appium \
 dex2jar \
@@ -159,6 +154,7 @@ gradle \
 mysql \
 node \
 you-get \
+
 
 brew cleanup
 
@@ -179,14 +175,8 @@ pip3 install pip -U
 pip3 install \
 bs4 \
 beautifulsoup4 \
-Flask \
-lxml \
-moviepy \
-numpy \
 peewee \
-Pillow \
-schedule \
-uncurl \
+schedule
 
 # 如果是macos系统, 安装mas和appstore常用软件
 if [[ "$OS_TYPE" == "Darwin" ]]; then 
